@@ -1,0 +1,376 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Playfair Display", serif;
+  max-width: 1366px;
+  margin: 0 auto;
+  min-width: 350px;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapp {
+  max-width: 1366px;
+  background: #FBF0E4;
+  padding-left: calc(50% - 616px);
+  padding-right: calc(50% - 616px);
+}
+
+.top_content {
+  background-image: url(img/top-img.png);
+  max-width: 1232px;
+  height: 687px;
+}
+
+.about_course {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 47px;
+  padding-left: 104px;
+  flex-wrap: wrap;
+}
+
+.duration {
+  min-width: 214px;
+  min-height: 52px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #000;
+}
+
+.training-format {
+  min-width: 190px;
+  min-height: 52px;
+  margin-left: 72px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #633A10;
+}
+
+.button {
+  background: #864F1A;
+  padding: 25px 10px;
+  min-width: 292px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #FFFFFF;
+  margin-top: 78px;
+  text-align: center;
+  border-radius: 100px;
+}
+
+.button:hover {
+  opacity: 0.33;
+}
+
+.information {
+  max-width: 695px;
+}
+
+.text_sentence {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  color: #000;
+  padding-top: 34px;
+  padding-bottom: 46px;
+  padding-left: 104px;
+}
+
+.top_title {
+  font-family: Playfair Display;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0em;
+  padding-left: 104px;
+  color: #633A10;
+}
+
+.text_description {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  padding-left: 104px;
+  padding-top: 48px;
+  padding-bottom: 133px;
+  color: #633A10;
+}
+
+.subtitle {
+  margin-top: 100px;
+  font-family: Playfair Display;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #633A10;
+}
+
+.digits {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-family: Montserrat;
+  font-size: 260px;
+  font-weight: 700;
+  line-height: 317px;
+  letter-spacing: 0em;
+  padding-left: 104px;
+  padding-right: 92px;
+  color: #D17C2D;
+}
+
+.digits-position {
+  padding-left: 102px;
+}
+
+.categories {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0em;
+  color: #633A10;
+  max-width: 297px;
+}
+
+.troika {
+  padding-left: 42px;
+}
+
+.program {
+  font-family: Playfair Display;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 67px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 116px;
+  color: #633A10;
+}
+
+.moduls {
+  max-width: 816px;
+  margin: 50px auto;
+}
+
+.moduls__line {
+  max-width: 816px;
+  border: 1px solid #633A10;
+}
+
+.moduls__wrapp {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.moduls__link:hover {
+  color: #D17C2D;
+  text-decoration: underline;
+}
+
+.moduls__text {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #633A10;
+}
+
+.moduls__text:hover {
+  color: #D17C2D;
+}
+
+.moduls__position-cross {
+  position: relative;
+  margin-top: 22px;
+  padding-right: 18px;
+}
+
+.vector {
+  position: absolute;
+  padding-left: 25px;
+}
+
+.vector-row {
+  padding-top: 10px;
+}
+
+.result {
+  max-width: 672px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 95px auto;
+  padding-bottom: 103px;
+  color: #633A10;
+}
+
+@media (max-width: 1200px) {
+  .top_content {
+    width: 95%;
+    margin: auto;
+  }
+}
+@media (max-width: 960px) {
+  .digits {
+    padding: 0;
+    justify-content: space-evenly;
+  }
+}
+@media (max-width: 950px) {
+  .about_course {
+    padding-left: 15px;
+    padding-right: 15px;
+    justify-content: center;
+  }
+}
+@media (max-width: 840px) {
+  .moduls {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .text_sentence {
+    text-align: center;
+    padding-left: 0;
+  }
+  .top_title {
+    text-align: center;
+    padding-left: 0;
+  }
+  .text_description {
+    text-align: center;
+    padding-left: 0;
+  }
+  .subtitle {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .digits {
+    gap: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .digits-position {
+    padding: 0;
+  }
+  .troika {
+    padding: 0;
+  }
+  .categories {
+    max-width: 204px;
+    justify-content: center;
+  }
+}
+@media (max-width: 650px) {
+  .text_sentence {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .text_description {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .moduls__position-cross {
+    display: none;
+  }
+  .result {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+@media (max-width: 580px) {
+  .digits {
+    gap: 10px;
+  }
+}
+@media (max-width: 543px) {
+  .training-format {
+    margin-left: 0;
+  }
+  .about_course {
+    gap: 16px;
+  }
+  .text_description {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .digits {
+    flex-direction: column;
+    align-content: center;
+    gap: 0;
+  }
+}
+@media (max-width: 500px) {
+  .top_title {
+    font-size: calc(35px + 27.2 * (100vw - 320px) / 1232);
+  }
+  .text_sentence {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .text_description {
+    margin-top: -30px;
+  }
+  .subtitle {
+    font-size: calc(35px + 27.2 * (100vw - 320px) / 1366);
+    margin-top: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .button {
+    margin-top: 0;
+  }
+  .top_title {
+    margin-top: -44px;
+  }
+}/*# sourceMappingURL=style.css.map */
